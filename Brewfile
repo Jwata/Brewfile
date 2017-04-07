@@ -3,12 +3,12 @@ tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'neovim/neovim'
+cask 'java'
 brew 'autoconf'
 brew 'awscli'
 brew 'chromedriver'
 brew 'curl'
 brew 'git'
-brew 'docker-compose'
 brew 'elasticsearch', restart_service: true
 brew 'gdbm'
 brew 'geckodriver'
@@ -43,16 +43,21 @@ brew 'wget'
 brew 'zlib'
 brew 'zsh'
 brew 'neovim/neovim/neovim'
+cask '1password'
 cask 'alfred'
 cask 'anki'
 cask 'dropbox'
+cask 'evernote'
 cask 'firefox'
 cask 'fluid'
 cask 'flux'
+cask 'google-chrome'
+cask 'google-japanese-ime'
 cask 'grammarly'
 cask 'gyazo'
 cask 'intellij-idea'
 cask 'istat-menus'
+cask 'iterm2'
 cask 'kindle'
 cask 'macdown'
 cask 'ngrok'
@@ -60,7 +65,6 @@ cask 'postico'
 cask 'trailer'
 cask 'tunnelblick'
 cask 'zerotier-one'
-mas '1Password', id: 443987910
 mas 'BetterSnapTool', id: 417375580
 mas 'Evernote', id: 406056744
 mas 'GarageBand', id: 682658836
@@ -72,5 +76,6 @@ mas 'LINE', id: 539883307
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'QREncoder', id: 452695239
+mas 'RealTimes', id: 1048786961
 mas 'Slack', id: 803453959
 mas 'Xcode', id: 497799835
