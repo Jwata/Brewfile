@@ -53,7 +53,6 @@ cask 'evernote'
 cask 'firefox'
 cask 'fluid'
 cask 'flux'
-cask 'focus'
 cask 'google-chrome'
 cask 'google-japanese-ime'
 cask 'grammarly'
@@ -66,10 +65,12 @@ cask 'kindle'
 cask 'macdown'
 cask 'ngrok'
 cask 'postico'
+cask 'staruml'
 cask 'trailer'
 cask 'tunnelblick'
 cask 'vlc'
 cask 'zerotier-one'
+mas 'Be Focused', id: 973134470
 mas 'BetterSnapTool', id: 417375580
 mas 'Evernote', id: 406056744
 mas 'GarageBand', id: 682658836
